@@ -35,9 +35,10 @@ public class StaticQueue {
             System.out.println("Stack cheia");
             return 0;
         }
+        int intBase = data[base];
         data[base] = 0;
         base++;
-
+        return intBase;
     }
 
     public void clear() {
